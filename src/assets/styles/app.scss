@@ -1,0 +1,15 @@
+// packages
+@import "./../../../node_modules/bootstrap/scss/bootstrap";
+@import "./../../../node_modules/normalize-scss/sass/normalize";
+
+// helpers
+@import "./helpers/variables";
+
+// layout
+@import "./layouts/global";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/article";
+
+// pages
+@import "./pages/single-view-page";
