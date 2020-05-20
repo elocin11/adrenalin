@@ -3,6 +3,7 @@ import { render } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import Article from "./../index";
 
+// should render correctly with the given data and match the snapshot
 test("Render article with data correctly", () => {
   const data = {
     title_long:
