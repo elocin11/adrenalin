@@ -1,8 +1,9 @@
 .footer {
   width: 100%;
+  margin-bottom: 20px;
 
   .container {
-    min-height: 100px;
+    min-height: 70px;
     border-top: 2px solid $color-black;
     display: flex;
     justify-content: space-between;
@@ -17,7 +18,7 @@
   }
 
   .logo {
-    height: 20px;
+    height: 16px;
     @media (max-width: 767px) {
       margin-bottom: 15px;
     }
@@ -35,12 +36,16 @@
     }
 
     li {
-      margin-left: 5px;
+      margin-left: 15px;
+      &:first-child {
+        margin-left: 0;
+      }
     }
+
     a {
       color: $color-black;
       padding: 10px;
-      font-size: 13px;
+      @include font-size(13px);
     }
   }
 }

@@ -3,6 +3,7 @@
   min-height: 100px;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 
   .container {
     display: flex;
@@ -16,7 +17,7 @@
   }
 
   .logo {
-    height: 20px;
+    height: 18px;
     @media (max-width: 767px) {
       margin-bottom: 15px;
     }
@@ -34,12 +35,16 @@
     }
 
     li {
-      margin-left: 5px;
+      margin-left: 15px;
+      &:first-child {
+        margin-left: 0;
+      }
     }
+
     a {
       color: $color-black;
       padding: 10px;
-      font-size: 13px;
+      @include font-size(13px);
     }
   }
 }

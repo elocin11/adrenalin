@@ -8,7 +8,7 @@
 
   .article-tag {
     background-color: $color-lightgray;
-    font-size: 13px;
+    @include font-size(13px);
     text-transform: uppercase;
     padding: 0 10px 10px 5px;
     position: absolute;
@@ -19,7 +19,7 @@
   }
 
   .article-right {
-    padding-left: 70px;
+    padding-left: 7%;
     padding-top: 50px;
     @media (max-width: 1199px) {
       padding-left: 15px;
@@ -27,10 +27,10 @@
   }
 
   .article-title {
-    font-size: 64px;
+    @include font-size(64px);
     font-weight: 700;
     @media (max-width: 1190px) {
-      font-size: 40px;
+      @include font-size(40px);
     }
   }
 
@@ -42,18 +42,18 @@
   }
 
   .question-body {
-    font-size: 21px;
+    @include font-size(21px);
     font-family: $font-secondary;
     @media (max-width: 1190px) {
-      font-size: 18px;
+      @include font-size(18px);
     }
   }
 
   .question-number {
-    font-size: 32px;
+    @include font-size(32px);
     font-weight: 600;
     @media (max-width: 1190px) {
-      font-size: 21px;
+      @include font-size(21px);
     }
   }
 }

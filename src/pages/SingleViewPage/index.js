@@ -19,8 +19,6 @@ const SingleViewPage = React.memo(() => {
 
   useEffect(() => {
     getMatchArticle(slug);
-    console.log(slug);
-    console.log(data);
   }, [getMatchArticle, slug]);
 
   return (

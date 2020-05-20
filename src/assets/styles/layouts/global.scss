@@ -5,7 +5,7 @@ body {
 
 // override bootstrap container class max-width of screen size min-width 1200px
 .container {
-  @media (min-width: 1200px) {
-    max-width: 1300px;
+  @media (min-width: 1300px) {
+    max-width: 1450px;
   }
 }
