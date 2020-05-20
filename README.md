@@ -14,7 +14,7 @@ After cloning the project navigate to the root directory and run the following:
 3. The next thing is the logo, based on the mockup the logo is supposed to be color black but the provided svg was color white. I just simply modify it on a text editor by changing the default color/fill to black.
 4. I used CRA (Create React App) for the structure of the app and just added some addons directories like components, pages, assets, fixtures and so on.
 5. For the data feed I just treated it as a fixture and simply imported it to the components where should it be use.
-6. For testing I used Jest and React Testing Libray since it's already included/configured on CRA. I'm still new to unit testing on so the test cases that I created are just basic tests like matchung snapshots, simple rendering, data property checking. 
+6. For testing I used Jest and React Testing Libray since it's already included/configured on CRA. I'm still new to unit testing, so the test cases that I created are just basic tests like matching snapshots, simple rendering, data property checking. 
 
 ---
 
