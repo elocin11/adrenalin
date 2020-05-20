@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render article with data correctly 1`] = `
+<article
+  class="article"
+  data-testid="article"
+>
+  <img
+    alt="title"
+    class="article-thumb"
+    src="1001_thumb.jpg"
+  />
+  <span
+    class="article-tag"
+  >
+    Toga Group
+  </span>
+  <h4
+    class="article-title"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero id auctor.
+  </h4>
+  <a
+    class="article-link"
+    href="/lorem-ipseum"
+  >
+    View case study
+  </a>
+</article>
+`;

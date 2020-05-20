@@ -5,16 +5,20 @@ import Footer from "../../components/Footer";
 import { Container, Row, Col } from "reactstrap";
 import data from "./../../fixtures/data.json";
 
-const SingleViewPage = React.memo(() => {
+const SingleViewPage = React.memo(({ history }) => {
   const { slug } = useParams();
   const [article, setArticle] = useState(null);
 
   const getMatchArticle = useCallback(
     (slug) => {
       let match = data.find((item) => item.slug === slug);
-      setArticle(match);
+      if (match) {
+        setArticle(match);
+      } else {
+        history.push("/");
+      }
     },
-    [setArticle]
+    [setArticle, history]
   );
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const Article = React.memo(({ title_long, tag, thumb, slug }) => (
-  <article className="article">
+  <article className="article" data-testid="article">
     <img
       src={require("./../../assets/images/" + thumb)}
       alt="title"
@@ -18,7 +18,6 @@ const Article = React.memo(({ title_long, tag, thumb, slug }) => (
 ));
 
 Article.propTypes = {
-  id: PropTypes.number,
   title_long: PropTypes.string,
   tag: PropTypes.string,
   thumb: PropTypes.string,

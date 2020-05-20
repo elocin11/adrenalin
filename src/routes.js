@@ -6,8 +6,8 @@ import SingleViewPage from "./pages/SingleViewPage";
 
 const Routes = React.memo(() => (
   <Switch>
-    <Route exact path="/" component={ListingPage}></Route>
-    <Route path="/:slug" component={SingleViewPage}></Route>
+    <Route exact path="/" component={ListingPage} />
+    <Route path="/:slug" component={SingleViewPage} />
   </Switch>
 ));
 
