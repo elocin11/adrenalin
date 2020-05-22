@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/adrenalin/static/css/main.324c5f38.chunk.css",
+    "main.js": "/adrenalin/static/js/main.33e774d2.chunk.js",
+    "main.js.map": "/adrenalin/static/js/main.33e774d2.chunk.js.map",
+    "runtime-main.js": "/adrenalin/static/js/runtime-main.7d871c31.js",
+    "runtime-main.js.map": "/adrenalin/static/js/runtime-main.7d871c31.js.map",
+    "static/js/2.0f3e8d2f.chunk.js": "/adrenalin/static/js/2.0f3e8d2f.chunk.js",
+    "static/js/2.0f3e8d2f.chunk.js.map": "/adrenalin/static/js/2.0f3e8d2f.chunk.js.map",
+    "index.html": "/adrenalin/index.html",
+    "precache-manifest.16f8e53bc7ee6ad12a16329638aa59b8.js": "/adrenalin/precache-manifest.16f8e53bc7ee6ad12a16329638aa59b8.js",
+    "service-worker.js": "/adrenalin/service-worker.js",
+    "static/css/main.324c5f38.chunk.css.map": "/adrenalin/static/css/main.324c5f38.chunk.css.map",
+    "static/js/2.0f3e8d2f.chunk.js.LICENSE.txt": "/adrenalin/static/js/2.0f3e8d2f.chunk.js.LICENSE.txt",
+    "static/media/1001.jpg": "/adrenalin/static/media/1001.1539fa57.jpg",
+    "static/media/1001_thumb.jpg": "/adrenalin/static/media/1001_thumb.1534c150.jpg",
+    "static/media/1002.jpg": "/adrenalin/static/media/1002.c7487b14.jpg",
+    "static/media/1002_thumb.jpg": "/adrenalin/static/media/1002_thumb.65ce0840.jpg",
+    "static/media/1003.jpg": "/adrenalin/static/media/1003.40c062a0.jpg",
+    "static/media/1003_thumb.jpg": "/adrenalin/static/media/1003_thumb.ead585af.jpg",
+    "static/media/1004.jpg": "/adrenalin/static/media/1004.806eda6e.jpg",
+    "static/media/1004_thumb.jpg": "/adrenalin/static/media/1004_thumb.2f12a978.jpg",
+    "static/media/adrenalin.svg": "/adrenalin/static/media/adrenalin.01cc78b5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d871c31.js",
+    "static/js/2.0f3e8d2f.chunk.js",
+    "static/css/main.324c5f38.chunk.css",
+    "static/js/main.33e774d2.chunk.js"
+  ]
+}
